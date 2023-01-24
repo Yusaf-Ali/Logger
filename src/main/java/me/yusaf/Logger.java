@@ -7,7 +7,7 @@ public class Logger {
 	public static boolean enabled = true;
 	public static boolean verbose;
 	private static int logLevel;
-	private DateTimeFormatter formatter = DateTimeFormatter.ofPattern("YYYYMMDDHHmmssSSS");
+	private DateTimeFormatter formatter = DateTimeFormatter.ofPattern("YYYYMMDD:HHmmss.SSS");
 	private String name;
 	private String suffix;
 
